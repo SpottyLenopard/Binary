@@ -16,11 +16,12 @@ namespace GitTest
             c.LeftValue = 10;
             Console.WriteLine(c.Add());
             Console.WriteLine(c.Substract());
+            Console.WriteLine(Multiply());
             //show result
             Console.ReadLine();
         }
 
-        public int Multiply()
+        public static int Multiply()
         {
             Calc c1 = new Calc();
             Calc c2 = new Calc();
