@@ -18,5 +18,13 @@ namespace GitTest
             Console.WriteLine(c.Substract());
             Console.ReadLine();
         }
+
+        public int Multiply()
+        {
+            Calc c1 = new Calc();
+            Calc c2 = new Calc();
+            c1.RightValue = c1.LeftValue = c2.RightValue = c2.LeftValue = 5;
+            return c1.Add() * c2.Add();
+        }
     }
 }
