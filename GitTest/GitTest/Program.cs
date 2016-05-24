@@ -16,6 +16,7 @@ namespace GitTest
             c.LeftValue = 10;
             Console.WriteLine(c.Add());
             Console.WriteLine(c.Substract());
+            //show result
             Console.ReadLine();
         }
 
